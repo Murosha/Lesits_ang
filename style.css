@@ -1,0 +1,15 @@
+.h1 {
+    text-align: center;
+}
+.h21 {
+    text-align: center;
+}
+.word {
+    cursor: pointer;
+    user-select: none;
+    text-transform: capitalize;
+    letter-spacing: 0.15rem;
+}
+#hh2 {
+    text-align: center;
+}
