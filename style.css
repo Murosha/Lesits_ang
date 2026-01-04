@@ -18,18 +18,23 @@
     word-spacing: 0.4rem;
     letter-spacing: 0.2rem;
 }
-#ppp1 {
-    position: fixed;
-    top: 0px;
-    right: 28%;
-}
-.nav {
-    position: fixed;
-    top: 15px;
-    right: 6%;
-}
 #inform {
     position: fixed;
     top: 10px;
     left: 10px;
+}
+body {
+    background: black;
+    color: rgb(191, 191, 191);
+}
+#ppp1 {
+    text-align: right;
+}
+.nav {
+    background: rgb(225, 196, 34);
+    color: rgb(0, 0, 0);
+    margin-left: 75%;
+    text-align: center;
+    border-radius: 1rem;
+    
 }
