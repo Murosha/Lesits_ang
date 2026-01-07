@@ -49,5 +49,10 @@ body {
     color: rgb(0, 0, 0);
     text-align: center;
     border-radius: 1rem;
-    
+}
+.word-music {
+    cursor: pointer;
+    user-select: none;
+    text-transform: capitalize;
+    letter-spacing: 0.15rem;
 }
