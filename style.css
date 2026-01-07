@@ -50,7 +50,7 @@ body {
     text-align: center;
     border-radius: 1rem;
 }
-.word-music {
+.word music {
     cursor: pointer;
     user-select: none;
     text-transform: capitalize;
