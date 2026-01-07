@@ -42,12 +42,11 @@ body {
     }
 }
 #ppp1 {
-    text-align: right;
+    text-align: center;
 }
 .nav {
     background: rgb(225, 196, 34);
     color: rgb(0, 0, 0);
-    margin-left: 50%;
     text-align: center;
     border-radius: 1rem;
     
