@@ -4,12 +4,6 @@
 .h21 {
     text-align: center;
 }
-.word {
-    cursor: pointer;
-    user-select: none;
-    text-transform: capitalize;
-    letter-spacing: 0.15rem;
-}
 #hh2 {
     text-align: center;
 }
@@ -59,4 +53,14 @@ body {
 #bbuu {
     background-color: rgb(235, 227, 11);
     border-radius: 10px;
+}
+.word {
+ cursor: pointer;
+    user-select: none;
+    text-transform: capitalize;
+    letter-spacing: 0.15rem;
+}
+.word big {
+    text-align: center;
+    font-size: 1.5rem;
 }
