@@ -32,10 +32,6 @@ const ua = line.slice(lastSlash + 1).trim();
     p.textContent = en;
     p.addEventListener("click", () => {
         p.textContent = p.textContent === en ? ua : en;
-       words.forEach(word => {
-  if (/\d/.test(word.textContent)) {
-    word.classList.add("big");
-  }
     });
     container.appendChild(p);
   });
