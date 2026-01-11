@@ -69,3 +69,11 @@ body {
     text-align: center;
     font-size: 1.5rem;
 }
+.section {
+     cursor: pointer;
+    user-select: none;
+    text-transform: capitalize;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    font-size: 1rem;
+}
