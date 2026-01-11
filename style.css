@@ -16,9 +16,12 @@
     position: fixed;
     top: 10px;
     left: 10px;
+    background-color: rgb(255, 243, 182);
+    border-radius: 0.5rem;
+    border: solid 1px black;
 }
 body {
-    background: black;
+    background: rgb(255, 243, 182);
     color: rgb(191, 191, 191);
 }
 .container {
@@ -76,4 +79,14 @@ body {
     letter-spacing: 0.15rem;
     text-align: center;
     font-size: 1rem;
+}
+.btnIT {
+    background-color: rgb(229, 205, 18);
+    border-radius: 0.5rem;
+    margin-left: 48%;
+}
+#ITw {
+    text-align: center;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.4rem;
 }
