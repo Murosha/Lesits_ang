@@ -1,0 +1,108 @@
+Загальні ІТ-слова (must-have)
+
+technology — технологія  
+software — програмне забезпечення  
+hardware — залізо  
+application (app) — застосунок  
+program — програма  
+system — система  
+user — користувач  
+interface (UI) — інтерфейс  
+experience (UX) — досвід користувача  
+settings — налаштування  
+update — оновлення  
+bug — помилка  
+fix — виправляти  
+issue / problem — проблема  
+feature — функція  
+version — версія  
+release — реліз
+
+
+Програмування (основа)
+
+
+code — код  
+programming — програмування  
+developer (dev) — розробник  
+frontend — фронтенд  
+backend — бекенд  
+full-stack — фулстек  
+logic — логіка  
+algorithm — алгоритм  
+variable — змінна  
+constant — константа  
+function — функція  
+method — метод  
+class — клас  
+object — об'єкт  
+condition — умова  
+loop — цикл  
+array — масив  
+string — рядок  
+boolean — булеве значення
+
+
+Веб-розробка
+
+
+website — вебсайт  
+web page — сторінка  
+layout — макет  
+responsive — адаптивний  
+browser — браузер  
+server — сервер  
+client — клієнт  
+request — запит  
+response — відповідь  
+API — API  
+database — база даних  
+hosting — хостинг  
+domain — домен  
+deployment — деплой
+
+
+Git / GitHub
+
+
+repository (repo) — репозиторій  
+commit — коміт  
+push — пуш  
+pull — пул  
+branch — гілка  
+merge — зливати  
+conflict — конфлікт  
+clone — клонувати  
+fork — форк  
+issue — задача / проблема  
+pull request (PR) — пул-реквест
+
+
+Англійські фрази, які використовують ІТ-шники
+
+
+How does it work? — Як це працює?  
+It doesn’t work — Це не працює  
+I fixed the bug — Я виправив баг  
+I’m working on it — Я над цим працюю  
+Can you help me? — Можеш допомогти?  
+What’s the problem? — У чому проблема?  
+It’s ready — Готово  
+It’s in progress — В процесі  
+I don’t understand — Я не розумію  
+Let’s test it — Давай протестуємо
+
+
+Для співбесід / навчання
+
+
+learn — вчити  
+practice — практикувати  
+skill — навичка  
+experience — досвід  
+project — проєкт  
+task — завдання  
+solution — рішення  
+improve — покращувати  
+knowledge — знання  
+career — кар’єра
