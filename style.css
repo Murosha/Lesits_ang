@@ -61,7 +61,7 @@ body {
     letter-spacing: 0.15rem;
 }
 
-.word big {
+.module {
     cursor: pointer;
     user-select: none;
     text-transform: capitalize;
