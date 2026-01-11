@@ -1,6 +1,5 @@
-
-const buttons = document.querySelectorAll("nav button");
-const container = document.getElementById("words");
+const btn = document.getElementById("btnIT");
+const itcontainer = document.getElementById("itwords");
 
 buttons.forEach(button => {
   button.addEventListener("click", async () => {
@@ -16,23 +15,11 @@ buttons.forEach(button => {
 function renderWords(text) {
   container.innerHTML = "";
   const lines = text.split("\n");
-
-  lines.forEach(line => {
-    line = line.trim();
-    if (!line) return;
-    if (/^\d+\s*[A-Z]/i.test(line)) {
-      const clean = line.match(/^\d+\s*[A-Z]/i)[0];
-
-      const h2 = document.createElement("h2");
-      h2.textContent = clean.replace(/\s+/g, "").toUpperCase();
-      h2.className = "module";
-      container.appendChild(h2);
-      return;
     }
     if (!line.includes("-")) {
       const h3 = document.createElement("h3");
       h3.textContent = line;
-      h3.className = "section";
+      h3.className = "sections";
       container.appendChild(h3);
       return;
     }
@@ -43,7 +30,7 @@ function renderWords(text) {
     const ua = line.slice(lastDash + 1).trim();
 
     const p = document.createElement("p");
-    p.className = "word";
+    p.className = "words";
     p.dataset.ua = ua;
     p.textContent = en;
 
@@ -52,5 +39,4 @@ function renderWords(text) {
     });
 
     container.appendChild(p);
-  });
-}
+  
