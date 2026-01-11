@@ -4,7 +4,7 @@ const buttons = document.querySelectorAll("nav button");
 buttons.forEach(button => {
   button.addEventListener("click", async () => {
     const fileName = button.dataset.file;
-    const targetId = button.dataset.target; // 👈 нове
+    const targetId = button.dataset.target; 
     const container = document.getElementById(targetId);
 
     console.log("Натиснув кнопку:", fileName);
