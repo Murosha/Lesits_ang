@@ -22,7 +22,7 @@
 }
 body {
     background: rgb(255, 243, 182);
-    color: rgb(191, 191, 191);
+  color: rgb(0, 0, 0);
 }
 .container {
      max-width: 390px;
