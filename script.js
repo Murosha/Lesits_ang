@@ -19,7 +19,7 @@ function renderWords(text) {
   lines.forEach(line => {
     line = line.trim();
     if (!line) return;
-    if (/^\d+[A-Z]$/i.test(line)) {
+    if (/^\d+\s*[A-Z]/i.test(line)) {
       const h2 = document.createElement("h2");
       h2.textContent = line.toUpperCase();
       h2.className = "module";
