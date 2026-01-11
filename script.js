@@ -20,15 +20,21 @@ function renderWords(text) {
     line = line.trim();
     if (!line) return;
     if (/^\d+\s*[A-Z]/i.test(line)) {
+      const clean = line.match(/^\d+\s*[A-Z]/i)[0];
+
       const h2 = document.createElement("h2");
-      h2.textContent = line.toUpperCase();
+      h2.textContent = clean.replace(/\s+/g, "").toUpperCase();
       h2.className = "module";
       container.appendChild(h2);
       return;
     }
-
-    if (!line.includes("-")) return;
-
+    if (!line.includes("-")) {
+      const h3 = document.createElement("h3");
+      h3.textContent = line;
+      h3.className = "section";
+      container.appendChild(h3);
+      return;
+    }
     const lastDash = line.lastIndexOf("-");
     if (lastDash === -1) return;
 
@@ -46,15 +52,5 @@ function renderWords(text) {
 
     container.appendChild(p);
   });
-  const words = document.querySelectorAll(".word");
-  words.forEach(word => {
-    if (/\d/.test(word.textContent)) {
-      word.classList.add("big");
-    }
-  });
 }
-
-
-
-
 
