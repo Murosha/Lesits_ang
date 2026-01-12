@@ -13,9 +13,9 @@
     letter-spacing: 0.2rem;
 }
 #inform {
-    position: fixed;
-    top: 10px;
-    left: 10px;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
     background-color: rgb(255, 243, 182);
     border-radius: 0.5rem;
     border: solid 1px black;
