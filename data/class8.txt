@@ -285,7 +285,7 @@ uniform n - форма шкільна
 reply n plas - відповідь
 
 
-2 TEEN LIFE
+2_TEEN_LIFE
 2a
 
 
@@ -599,7 +599,7 @@ quick tempered - запальний
 stubborn - впертий
 
 
-3 MY LIFESTYLE
+3_MY_LIFESTYLE
 3a
 
 
@@ -987,7 +987,7 @@ have a whale of a time - гарно провести час
 make one s day - зробити чийсь день кращим
 
 
-5 READING FOR PLEASURE
+5_READING_FOR_PLEASURE
 5a
 
 
@@ -1311,7 +1311,7 @@ To my surprise - На мій подив
 
 
 
-6 TECHNOLOGY AND MEDIA
+6_TECHNOLOGY_AND_MEDIA
 6A
 
 
@@ -1535,7 +1535,7 @@ unhealthy - нездоровий
 useless - марний який не приносить
 
 
-7 A HELPING HAND
+7_A_HELPING_HAND
 7a
 
 
@@ -1805,7 +1805,7 @@ Need any help - Потрібна допомога
 Would you mind helping me out - Ви не могли б
 
 
-8 HOLIDAYS
+8_HOLIDAYS
 8A
 
 
