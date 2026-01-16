@@ -2,7 +2,7 @@ const btn = document.getElementById("buttonka");
 const output = document.getElementById("divka");
 
 btn.addEventListener("click", () => {
-  fetch("words.txt")
+  fetch("word100.txt")
     .then(res => res.text())
     .then(text => render(text));
 });
