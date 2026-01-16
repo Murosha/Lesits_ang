@@ -90,3 +90,19 @@ body {
     letter-spacing: 0.2rem;
     word-spacing: 0.4rem;
 }
+#buttonka:hover {
+     background-color: rgb(229, 205, 18);
+     border-radius: 1rem;
+}
+#buttonka {
+    width: 10rem;
+    height: 3rem;
+    transition: border-radius 1.5s, background-color 2s 0.5s;
+    font-size: 1.25rem;
+}
+#hhhh2:hover {
+color: rgb(185, 6, 6);
+}
+#hhhh2 {
+    transition: 1s;
+}
